@@ -20,4 +20,4 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release
     - name: Test with dotnet
-      run: dotnet test ./TwistedTri.ExtraLifeDashboard.sln --configuration Release
+      run: dotnet test ./TwistedTri.ExtraLifeDashboard/TwistedTri.ExtraLifeDashboard.sln --configuration Release
